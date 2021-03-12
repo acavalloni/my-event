@@ -1,0 +1,529 @@
+html{
+	margin:0;
+	padding:0;
+} 
+
+
+body{
+	margin:0;
+	padding:0;
+	background:#f7fafe;
+	width:100%;
+	height:100%;
+	overflow-y:scroll;
+}
+
+@font-face {
+    font-family: 'CaviarDreamsItalic';
+    src: url('fonts/CaviarDreamsItalic-webfont.eot');
+    src: url('fonts/CaviarDreamsItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreamsItalic-webfont.woff') format('woff'),
+         url('fonts/CaviarDreamsItalic-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreamsItalic-webfont.svg#CaviarDreamsItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBoldItalic';
+    src: url('fonts/CaviarDreams_BoldItalic-webfont.eot');
+    src: url('fonts/CaviarDreams_BoldItalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams_BoldItalic-webfont.svg#CaviarDreamsBoldItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsRegular';
+    src: url('fonts/CaviarDreams-webfont.eot');
+    src: url('fonts/CaviarDreams-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams-webfont.svg#CaviarDreamsRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'CaviarDreamsBold';
+    src: url('fonts/CaviarDreams_Bold-webfont.eot');
+    src: url('fonts/CaviarDreams_Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/CaviarDreams_Bold-webfont.woff') format('woff'),
+         url('fonts/CaviarDreams_Bold-webfont.ttf') format('truetype'),
+         url('fonts/CaviarDreams_Bold-webfont.svg#CaviarDreamsBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.none{
+	display:none;
+}
+.right{
+	float:right;
+}
+
+.left{
+	float:left;
+}
+
+.clear{
+	clear:both;
+}
+
+#tableau{
+	background:#ccc;
+	border-radius:5px;
+	border:1px solid #726867;
+	margin:0 auto;
+	width:95%;
+	margin-top:20px;
+}
+
+
+table
+{
+    border-collapse: collapse;
+	margin:0 auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+tbody{
+	
+}
+
+td, th
+{
+    border:1px solid #726867;
+	padding:5px;
+}
+
+.green{
+	background:#D1F3D1 url('img/ok.png') no-repeat 40px;
+}
+
+.green_large{
+	background:#D1F3D1 url('img/ok.png') no-repeat 65px;
+}
+
+.vert{
+	background:#D1F3D1;
+}
+
+.red{
+	background:#FFCCCA;
+}
+
+.rouge{
+	background:#FFCCCA;
+}
+
+.text_red{
+	color:#bf0404;
+}
+
+.date{
+	background: #3385e4;
+}
+
+table input[type=checkbox]{
+	display:block;
+	margin:0 auto;
+}
+#header{
+	font-family: 'CaviarDreamsBold';
+	width:100%;
+	height:auto;
+	background:#fdfdfd;
+	margin:0;
+	padding:0;
+	border-bottom:1px solid #ccc;
+}
+
+#header h1, #header h2{
+	margin-top:0;
+	padding-top:0px;
+	padding-bottom:10px;
+	text-align:center;
+	margin:0;
+}
+
+#header h1{
+	padding-top:20px;
+}
+
+#content{
+	margin:0 auto;
+	position:relative;
+	min-height:100%;
+}
+
+#form_add_guest{
+	margin-bottom:10px;
+}
+#englob_info{
+	margin:0 auto;
+	width:95%;
+	margin-top:50px;
+	margin-bottom:40px;
+}
+
+#event_description{
+	width:36%;
+	height:auto;
+	background:#ccc url('img/event.png') 10px 10px no-repeat;
+	float:left;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	padding-left:90px;
+	font-family: 'CaviarDreamsRegular';
+}
+
+.titre{
+	font-family:CaviarDreamsBold;
+	font-size:1.3em;
+	margin-top:5px;
+}
+
+#cadeau_description{
+	width:36%;
+	height:auto;
+	background:#ccc url('img/gift.png') 10px 10px no-repeat;
+	float:right;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	padding-left:100px;
+	font-family: 'CaviarDreamsRegular';
+}
+
+.participant{
+	background: url('img/sprite.png') -55px -301px no-repeat transparent;
+	border:none;
+	width:130px;
+	height:20px;
+}
+
+.form_participant{
+	background: url('img/form_participant.png') no-repeat transparent;
+	border:none;
+	padding:0;
+	margin:0;
+	width:130px;
+	height:20px;
+	border-top:1px solid #ccc;
+}
+
+.form_participant input{
+	width:120px;
+	height:20px;
+	padding:0;
+	margin:0;
+	position:relative;
+	top:0px;
+	left:5px;
+}
+
+.form_cadeau{
+	background:#B2D1F9;
+}
+
+.form_cadeau input{
+	width:90px;
+	height:20px;
+	padding:0;
+	margin:0;
+}
+
+.blanc{
+	background:#fff;
+}
+
+.vide{
+	border:none;
+}
+
+.no_border{
+	border:none;
+}
+
+.edition{
+	background: url('img/sprite.png') no-repeat -144px -27px transparent;
+	width:16px;
+	height:16px;
+	display:block;
+	position:relative;
+	top:0;
+	left:10px;
+}
+
+.edition:hover,.edition:active,.edition:focus{
+	background: url('img/sprite.png') no-repeat -160px -27px transparent;
+}
+
+.supprimer{
+	background: url('img/sprite.png') no-repeat -176px -27px transparent;
+	width:16px;
+	height:16px;
+	display:block;
+	position:relative;
+	top:0;
+	left:-35px;
+}
+
+.supprimer:hover,.supprimer:active,.supprimer:focus{
+	background: url('img/sprite.png') no-repeat -192px -27px transparent;
+}
+
+.participer_bouton{
+	background: #3385e4;
+	border:1px solid #fff;
+	color:#fff;
+	
+}
+
+#footer{
+	font-family: ''CaviarDreamsBold'';
+	width:100%;
+	height:auto;
+	background:#f5f5f5;
+	margin:0;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	margin-top:30px;
+	border-top:1px solid #ccc;
+}
+
+#footer a{
+	color:#3385e4;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ Creation event ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+/* css for timepicker */
+ .ui-timepicker-div .ui-widget-header { margin-bottom: 8px; }
+ .ui-timepicker-div dl { text-align: left; }
+ .ui-timepicker-div dl dt { height: 25px; margin-bottom: -25px; }
+ .ui-timepicker-div dl dd { margin: 0 10px 10px 65px; }
+ .ui-timepicker-div td { font-size: 90%; }
+ .ui-tpicker-grid-label { background: none; border: none; margin: 0; padding: 0; }
+ 
+#block_form{
+	width:32%;
+	height:auto;
+	background:#ccc;
+	margin:0 auto;
+	margin-top:50px;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:20px;
+	font-family: 'CaviarDreamsRegular';
+}
+
+.case_checkbox{
+	background:#B2D1F9;
+}
+
+#block_form input, #block_form textarea{
+	background: #edf4fe;
+	border:1px solid #fff;
+	color:#3385e4;
+	float:right;
+	margin-bottom:20px !important;
+}
+
+label, input[type=submit]{
+	cursor:pointer;	
+
+}
+
+#block_form textarea{
+	margin-bottom:10px;	
+}
+
+#block_form input, #block_form textarea{
+	width:40%;
+	padding:3%;
+	margin-top:-3%;
+}
+
+#creer_bouton{
+	width:100% !important;
+	margin-top:5% !important;
+	color:#fff !important;
+	background: #3385e4 !important;
+}
+
+#block_form input[type=checkbox]{
+	margin:0 !important;	
+}
+
+#div_check{
+	padding-left:40px;
+	padding-top:10px;
+	padding-bottom:10px;
+}	
+
+#div_date{
+	padding-left:40px;
+}	
+
+/*				--- INDEX ---			*/
+
+
+#sous_header{
+	width:80%;
+	height:auto;
+	background:#fff;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	margin:0 auto;
+	margin-top:40px;
+	font-family: 'CaviarDreamsRegular';
+	text-align:center;
+}
+
+#sous_header img{
+	border-radius:3px;
+	display:block;
+	margin:0 auto;
+}
+
+.mini{
+	float:left;
+	width:20%;
+}
+
+#englob_index{
+	margin:0 auto;
+	width:81%;
+	margin-top:50px;
+	margin-bottom:40px;
+	padding:10px;
+}
+
+#haut_gauche{
+	width:36%;
+	height:auto;
+	background:#ccc url('img/info.png') 10px 30px no-repeat;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	padding-left:150px;
+	margin:0 auto;
+	font-family: 'CaviarDreamsRegular';
+	float:left;
+}
+
+#haut_droit{
+	width:36%;
+	height:auto;
+	background:#ccc;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	margin:0 auto;
+	font-family: 'CaviarDreamsRegular';
+	float:right;
+	text-align:center;
+}
+
+#bas_gauche{
+	width:36%;
+	height:auto;
+	background:#ccc url('img/privacy.png') 10px 45px no-repeat;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	padding-left:150px;
+	margin:0 auto;
+	margin-top:40px;
+	font-family: 'CaviarDreamsRegular';
+	float:left;
+}
+
+#bas_droit{
+	width:36%;
+	height:auto;
+	background:#ccc;
+	border-radius:5px;
+	border:1px solid #726867;
+	padding:10px;
+	padding-left:20px;
+	margin:0 auto;
+	margin-top:40px;
+	font-family: 'CaviarDreamsRegular';
+	float:right;
+}
+
+.creation_event{
+	font-family: 'CaviarDreamsBold';
+	display:block;
+	width:70%;
+	background:rgba(51, 133, 228, 0.18) url('img/form.png');
+	height:auto;
+	padding:10px;
+	border:2px solid #fff;
+	border-radius:5px;
+	padding:10px;
+	margin:0 auto;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	margin-bottom:20px;
+}
+
+#bas_droit ul{
+	counter-reset: puce;
+}
+
+#bas_droit li{
+	list-style-type: none;
+	counter-increment: puce;
+    margin-bottom: 10px;
+}
+
+#bas_droit li:before {
+    content: counter(puce);
+    padding: 6px 10px 6px;
+    margin-right: 8px;
+    vertical-align: top;
+    background: #3385e4;
+    -moz-border-radius: 60px;
+    border-radius: 60px;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: #fff;		
+}
+
+.share_link{
+	font-family: 'CaviarDreamsRegular';
+	text-align:center;
+}
+
+#les_boutons{
+	width:600px;
+	margin:0 auto;
+}
+
+#bouton_facebook{
+	float:left;
+	margin-left:80px;
+}
+
+.g-plus{
+	float:right;
+}
+
+.twitter-share-button{
+	float:left;
+	margin-left:110px;
+	margin-right:110px;
+}
