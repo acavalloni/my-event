@@ -1,2 +1,2 @@
 # my-event
- Doodle style tools created in 2012
+ Doodle like tool created in 2012
